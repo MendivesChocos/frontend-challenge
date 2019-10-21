@@ -49,17 +49,6 @@ export const user = (state = initialState, action) => {
                 ...state,
                 data: {...state.data}
             }
-        case actionTypes.TOGGLE_FOLLOW:
-            return {
-                ...state,
-                data: {
-                    ...state.data,
-                    [action.uuid]: {
-                        ...state.data[action.uuid],
-                        following: !state.data[action.uuid].following
-                    }
-                }
-            }
         default:
             return state;
     }
