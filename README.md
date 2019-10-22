@@ -5,11 +5,11 @@ Demo use react + redux with features and duck structure
 Installing
 
 ```bash
-npm i
+npm install or sudo npm install
 ```
 
 Start server
 
 ```bash
-npm start
+npm start or sudo npm start
 ```
