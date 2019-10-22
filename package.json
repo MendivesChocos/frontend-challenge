@@ -1,10 +1,12 @@
 {
   "name": "demo-test-frontend",
+  "description": "",
   "version": "0.1.0",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
+  "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
