@@ -1,6 +1,8 @@
 # Starting
 
 Demo use react + redux with features and duck structure
+Requirements
+Node.js > 10
 
 Installing
 
